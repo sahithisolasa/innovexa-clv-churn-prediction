@@ -1,6 +1,7 @@
 # Python cache
 __pycache__/
 *.py[cod]
+*$py.class
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
@@ -9,13 +10,50 @@ __pycache__/
 venv/
 .venv/
 env/
+ENV/
 
-# VS Code settings
+# VS Code
 .vscode/
 
-# OS files
+# PyCharm
+.idea/
+
+# Environment variables
+.env
+
+# Distribution files
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# OS generated files
 .DS_Store
 Thumbs.db
 
-# Python environment files
-.env
+# Temporary files
+*.tmp
+*.bak
+
+# Python compiled files
+*.pyo
+*.pyd
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Cache
+.cache/
+
+# Notebook autosaves
+*.nbconvert.ipynb
+
+# Model cache (optional)
+models/*.pkl
+
+# Large data files (optional)
+*.zip
+*.tar.gz
